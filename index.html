@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090c11" />
+    <meta name="description" content="The portfolio of Alexander Harris — curious about data, technology, travel, the ocean, and the natural world." />
+    <title>Alexander Harris — Data, Nature & Everything Between</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Alexander Harris, home"><span class="brand-mark">AH<span>.</span></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> ALWAYS EXPLORING</p>
+          <h1 id="hero-title">Curious by nature.<br /><span>Connected by data.</span></h1>
+          <p class="hero-intro">I’m Alexander — I find patterns in data, perspective in new places, and inspiration in the natural world.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View selected work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Social links">
+            <a href="https://github.com/Harrisinho17" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/alexanderbharris-9906" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a href="https://www.kaggle.com/alexbharr" target="_blank" rel="noreferrer" aria-label="Kaggle">K</a>
+            <span class="social-caption">Find me around the web</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract illustration of an ocean planet surrounded by data points" role="img">
+          <div class="art-halo"></div>
+          <div class="orbit orbit-one"><span></span></div>
+          <div class="orbit orbit-two"><span></span></div>
+          <div class="planet"><div class="planet-shine"></div><div class="planet-land"></div></div>
+          <div class="art-star star-one">✳</div><div class="art-star star-two">✦</div><div class="art-star star-three">✧</div>
+          <div class="art-label label-data"><span class="label-dot"></span> DATA / CURIOSITY</div>
+          <div class="art-label label-nature">A little more wonder <span>↗</span></div>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="shell about-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">A LITTLE CONTEXT</p>
+            <h2 id="about-title">A mind for <span>patterns.</span><br />A heart for the planet.</h2>
+          </div>
+          <div class="about-body reveal">
+            <p class="about-lede">I’m a data professional with a Computer Science background, a hands-on IT foundation, and a growing focus on data science.</p>
+            <p>Across IT support and implementation work, I’ve helped streamline onboarding, asset management, software licensing, and reporting. At Brightline, I support enterprise rollouts and new tools—work that keeps me close to practical problems and the people technology serves.</p>
+            <p>My toolkit spans Python, PostgreSQL, SQL, Excel, and Tableau, alongside platforms like ServiceNow, Azure AD, Intune, JAMF, and PowerShell. I enjoy turning data and day-to-day processes into clearer, more useful ways of working.</p>
+            <p>Off-screen, I’m happiest exploring somewhere new, scuba diving, caring for plants, watching anime, or catching a soccer match. Conservation and the natural world matter to me, and curiosity connects it all.</p>
+            <a class="inline-link" href="mailto:abelchior.harris@gmail.com">Have something in mind? Let’s talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-note reveal"><span class="note-icon">✳</span><p>Curiosity is a pretty good compass.</p><span class="note-index">ALWAYS EXPLORING</span></div>
+        </div>
+      </section>
+
+      <section class="projects section-pad" id="projects" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="section-top reveal">
+            <div><p class="eyebrow">COMPLETED WORK</p><h2 id="projects-title">Projects with a <span>point of view.</span></h2></div>
+            <p class="section-aside">Real questions, practical tools,<br />and insights worth sharing.</p>
+          </div>
+          <div class="project-list">
+            <article class="project-card reveal"><div class="project-count">01</div><div class="project-content"><p class="project-type">PUBLIC HEALTH × DATA STORYTELLING</p><h3><a href="projects/covid-data.html">COVID-19 Data Exploration <span aria-hidden="true">↗</span></a></h3><p>Used SQL to explore global COVID-19 cases, deaths, and vaccination trends, then brought the analysis together in a Tableau dashboard.</p><p class="project-stack">SQL · TABLEAU</p></div><div class="project-meta"><span class="project-status"><i></i> COMPLETED · 2024</span><div class="project-links"><a href="https://github.com/Harrisinho17/Covid_Exploration" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/Covid_Visualization_17240932164130/CovidDataViz?publish=yes" target="_blank" rel="noreferrer">Dashboard ↗</a></div></div></article>
+            <article class="project-card reveal"><div class="project-count">02</div><div class="project-content"><p class="project-type">TRAVEL × MARKET ANALYSIS</p><h3><a href="projects/brisbane-airbnb.html">Brisbane Airbnb Analysis <span aria-hidden="true">↗</span></a></h3><p>A self-guided exploration of Brisbane listings, pricing, occupancy, and seasonal demand—connecting my interest in travel with practical market questions.</p><p class="project-stack">PYTHON · POSTGRESQL · SQL · TABLEAU</p></div><div class="project-meta"><span class="project-status"><i></i> COMPLETED · 2024</span><div class="project-links"><a href="https://github.com/Harrisinho17/Brisbane_AirBNB_Data" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/Book1_17461532184640/3_RPO" target="_blank" rel="noreferrer">Dashboard ↗</a></div></div></article>
+            <article class="project-card reveal"><div class="project-count">03</div><div class="project-content"><p class="project-type">SERVICE DESIGN × DATA ENGINEERING</p><h3><a href="projects/fifa-ivr.html">FIFA IVR Case Study <span aria-hidden="true">↗</span></a></h3><p>An interview case study using sample FIFA ticketing data. The analysis found an 84% IVR effectiveness rate in 2023 and 78% year-over-year usage growth, then translated the patterns into optimization recommendations.</p><p class="project-stack">PYTHON · POSTGRESQL · SQL · TABLEAU</p></div><div class="project-meta"><span class="project-status"><i></i> COMPLETED · 2024</span><div class="project-links"><a href="https://github.com/Harrisinho17/Fifa-Case-Study" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/FifaIVRCaseStudy/23TicketAnalysis?publish=yes" target="_blank" rel="noreferrer">Dashboard ↗</a></div></div></article>
+            <article class="project-card reveal"><div class="project-count">04</div><div class="project-content"><p class="project-type">MOBILITY × CUSTOMER BEHAVIOR</p><h3><a href="projects/cyclistic.html">Cyclistic Bike-Share Case Study <span aria-hidden="true">↗</span></a></h3><p>Compared how annual members and casual riders use a Chicago bike-share service, using a year of trip data to inform strategies for converting casual riders into members.</p><p class="project-stack">PYTHON · POSTGRESQL · SQL · TABLEAU</p></div><div class="project-meta"><span class="project-status"><i></i> COMPLETED · 2024</span><div class="project-links"><a href="https://github.com/Harrisinho17/CyclisticCaseStudy" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/CyclisticDashboard_17345401887660/1?publish=yes" target="_blank" rel="noreferrer">Dashboard ↗</a></div></div></article>
+            <article class="project-card reveal"><div class="project-count">05</div><div class="project-content"><p class="project-type">HEALTH DATA × EXPLORATORY ANALYSIS</p><h3><a href="projects/ocd-analysis.html">OCD Patient Analysis <span aria-hidden="true">↗</span></a></h3><p>An exploratory analysis of anonymized demographic, symptom, and treatment data, asking how patterns differ across patient groups and what questions merit further study.</p><p class="project-stack">PYTHON · POSTGRESQL · SQL · TABLEAU · EXCEL</p></div><div class="project-meta"><span class="project-status"><i></i> COMPLETED · 2025</span><div class="project-links"><a href="https://github.com/Harrisinho17/OCDPatientAnalysis" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></article>
+          </div>
+          <p class="project-footnote"><span aria-hidden="true">✳</span> All projects shown here are completed. Explore the code and dashboards through the links above.</p>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-panel reveal">
+          <div class="contact-orbit" aria-hidden="true"><span></span><i></i></div>
+          <div class="contact-content"><p class="eyebrow">YOUR TURN</p><h2 id="contact-title">Have a good <span>question?</span></h2><p>Whether it’s data, conservation, a project idea, or a recommendation for my next trip — I’m always up for a conversation.</p><a class="button button-primary" href="mailto:abelchior.harris@gmail.com">Drop me a line <span aria-hidden="true">↗</span></a></div>
+          <div class="contact-availability"><span class="status-dot"></span> OPEN TO GOOD CONVERSATIONS</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer shell"><a class="brand" href="#top" aria-label="Back to top"><span class="brand-mark">AH<span>.</span></span></a><p>Built with curiosity <span aria-hidden="true">✳</span> <span id="year"></span></p><a class="back-top" href="#top">BACK TO THE SURFACE ↑</a></footer>
+  </body>
+</html>
